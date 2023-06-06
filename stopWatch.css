@@ -1,0 +1,40 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+main{
+    width: 400px;
+    height:500px;
+    border-radius:10px;
+    flex-direction: column;
+    background-color: rgb(32,32,32);
+}
+i{
+    font-size: 23px;
+}
+.timer{
+    padding: 30px;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border:15px solid rgb(251,164,33);
+    height: 200px;
+}
+.btn{
+    color:white!important;
+}
+#reset, #stop{
+    box-shadow: -2px -2px 8px rgb(52, 52, 52)!important;
+    background-color: rgb(32,32,32);
+    border-radius: 50px;
+    width: 85px;
+}
+#start i{
+    color: rgb(251,164,33);
+    box-shadow: -2px -2px 8px rgb(52, 52, 52)!important;
+    background-color: rgb(32,32,32);
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+}
